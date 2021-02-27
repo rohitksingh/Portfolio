@@ -1,12 +1,13 @@
 import React from 'react'
 import Footer from './components/Footer/footer'
-import NavBar from './components/NavBar/navbar'
+import NavigationBar from './components/NavigationBar/navbar'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 function App() {
   return (
     <div>
-      <NavBar/>
+      <NavigationBar/>
       <Footer/>
     </div>
   );
