@@ -1,6 +1,13 @@
+.project-card-container{
+    margin: 12px;
+}
+
 .project-content{
     align-self: center;
     color: white;
+    margin-top: 16px;
+    margin-right: 16px;
+    margin-bottom: 16px;
 }
 
 .project-link{
@@ -11,15 +18,26 @@
     color: wheat;
 }
 
-.project-card-container{
-    padding-left: 20%;
-    padding-right: 20%;
-}
+
+.project-card{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+
+  .project-card:hover {
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
 
 .project-image{
-    align-self: center;
-    
+    align-self: right;
+    width: 64px;
+    height: 64px;
+    margin: 16px;
 }
+
+.card-horizontal {
+    display: flex;
+    flex: 1 1 auto;
+  }
 
 .w3-tag{
     margin: 2px;

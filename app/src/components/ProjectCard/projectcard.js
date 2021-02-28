@@ -5,8 +5,6 @@ import './projectcard.css'
 
 class ProjectCard extends Component {
 
-    
-
     constructor(props){
         super(props)
         this.tags = this.props.tags
@@ -24,29 +22,27 @@ class ProjectCard extends Component {
     
     render(){
         return(
-            <div className="project-card-container">
-                <Card bg='primary'>
-                    <Card.Body>
-                        <Row>
-                        <Col lg={2}>
-                            <Image className='project-image' src={this.props.imgUrl}/>
-                        </Col>
-                        <Col className="project-content" lg={10}>
-                            <Card.Title>{this.props.name}</Card.Title>
-                            <Card.Text>{this.props.description}</Card.Text>
-                            {this.getTags()}
-                        </Col>
-                        </Row>
-                    </Card.Body>
-                    <Card.Footer>
-                        <Link className="project-link" to={this.props.link}>See project on Github</Link>
-                    </Card.Footer>
-                </Card>
-            </div>
+            <Container className="project-card-container" fluid >
+                <Row className="justify-content-center">
+                    <Col lg={6}>
+                        <Card bg='primary'>
+                            <div className="card-horizontal">
+                                <Image className="project-image" src={this.props.imgUrl}/>
+                                <div className="project-content">
+                                    <Card.Title>{this.props.name}</Card.Title>
+                                    <Card.Text>{this.props.description}</Card.Text>
+                                    {this.getTags()}
+                                </div>
+                            </div>
+                            <Card.Footer>
+                                <Link className="project-link" to={this.props.link}>See project on Github</Link>
+                            </Card.Footer>    
+                        </Card>
+                    </Col>
+                </Row>
+            </Container>
         );
     }
-    
-
 
 }
 
