@@ -2,8 +2,6 @@ import React, { Component } from 'react'
 
 class ProjectCard extends Component {
 
-    
-
     constructor(props){
         super(props)
         
@@ -18,8 +16,8 @@ class ProjectCard extends Component {
                         <div class="card-horizontal">
                            
                             <div class="card-body">
-                                <h4 class="card-title">iOS Places App</h4>
-                                <p>iOS which sync address with JSON RPC Server and Other Android device</p>
+                                <h4 class="card-title">{this.props.name}</h4>
+                                <p>Description</p>
                                 <div id="skills" class="skills">
                                     <div class="skill-name">
                                         <span class="w3-tag ">XCode</span>
@@ -35,7 +33,7 @@ class ProjectCard extends Component {
                             </div>
                         </div>
                         <div class="card-footer">
-                            <small class="text-muted"><a href="https://github.com/rohitksingh/IOS-Places" target="_blank">See project on Github</a></small>
+                            <small class="text-muted"><a href="https://google.com" target="_blank">See project on Github</a></small>
                         </div>
                     </div>
                 </div>
