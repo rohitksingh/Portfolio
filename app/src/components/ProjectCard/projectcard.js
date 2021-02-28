@@ -1,48 +1,55 @@
 import React, { Component } from 'react'
+import { Container , Row, Col, Card, Image} from 'react-bootstrap'
+import {Link} from 'react-router-dom'
+import './projectcard.css'
 
 class ProjectCard extends Component {
 
+    
+
     constructor(props){
         super(props)
-        
+        this.tags = this.props.tags
+
     }
 
+    getTags = () => {
+         return this.props.tags.map((tag) => {
+            return (
+                <span className="w3-tag">tag</span>
+            );
+        });
+    };
+
+    
     render(){
         return(
-            <div class="container-fluid">
-            <div class="row justify-content-center">
-                <div class="col-6 mt-3">
-                    <div class="card bg-warning">
-                        <div class="card-horizontal">
-                           
-                            <div class="card-body">
-                                <h4 class="card-title">{this.props.name}</h4>
-                                <p>Description</p>
-                                <div id="skills" class="skills">
-                                    <div class="skill-name">
-                                        <span class="w3-tag ">XCode</span>
-                                        <span class="w3-tag ">Swift</span>
-                                        <span class="w3-tag ">Coredate</span>
-                                        <span class="w3-tag ">JSON RPC</span>
-                                        <span class="w3-tag ">SQLite3</span>
-                                        <span class="w3-tag ">UIRefreshControl</span>
-                                        <span class="w3-tag ">UIAlertController</span>
-                                        <span class="w3-tag ">Segue, Unwind Segue</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card-footer">
-                            <small class="text-muted"><a href="https://google.com" target="_blank">See project on Github</a></small>
-                        </div>
-                    </div>
-                </div>
+            <div className="project-card-container">
+                <Card bg='primary'>
+                    <Card.Body>
+                        <Row>
+                        <Col lg={2}>
+                            <Image className='project-image' src={this.props.imgUrl}/>
+                        </Col>
+                        <Col className="project-content" lg={10}>
+                            <Card.Title>{this.props.name}</Card.Title>
+                            <Card.Text>{this.props.description}</Card.Text>
+                            {this.getTags()}
+                        </Col>
+                        </Row>
+                    </Card.Body>
+                    <Card.Footer>
+                        <Link className="project-link" to={this.props.link}>See project on Github</Link>
+                    </Card.Footer>
+                </Card>
             </div>
-        </div>
         );
     }
     
 
+
 }
+
+
 
 export default ProjectCard

@@ -1,0 +1,33 @@
+.project-content{
+    align-self: center;
+    color: white;
+}
+
+.project-link{
+    color: white;
+}
+
+.project-link:hover{
+    color: wheat;
+}
+
+.project-card-container{
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.project-image{
+    align-self: center;
+    
+}
+
+.w3-tag{
+    margin: 2px;
+    font-size: 10px;
+    background-color: black;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
