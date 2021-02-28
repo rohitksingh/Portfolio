@@ -31,7 +31,9 @@ class ProjectCard extends Component {
                                 <div className="project-content">
                                     <Card.Title>{this.props.name}</Card.Title>
                                     <Card.Text>{this.props.description}</Card.Text>
-                                    {this.getTags()}
+                                    <div className="skills">
+                                        {this.getTags()}
+                                    </div>
                                 </div>
                             </div>
                             <Card.Footer>

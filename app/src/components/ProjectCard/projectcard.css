@@ -49,3 +49,18 @@
     padding-bottom: 2px;
 }
 
+.skills{
+    margin-right: 10px;
+    width: min-content;
+    animation: skills-animation 3s 1 forwards;
+}
+
+@keyframes skills-animation {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+
