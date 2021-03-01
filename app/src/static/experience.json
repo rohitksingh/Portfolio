@@ -1,0 +1,40 @@
+[
+    {
+        "name": "IBM Call for Code Hackathon",
+        "description": "1st Place($1000)",
+        "timeline": "(September 2019)",
+        "place": "Tempe, USA",
+        "imageUrl": "https://user-images.githubusercontent.com/11274840/93275745-91a40780-f772-11ea-93b7-89b0e644a508.png" 
+    }, 
+    {
+        "name": "Research Aide",
+        "description": "NASA Mission to Psyche at ASU",
+        "timeline": "(May 2020 - Present)",
+        "place": "Tempe, USA",
+        "imageUrl": "https://user-images.githubusercontent.com/11274840/93273381-8fd74580-f76c-11ea-9e66-6e0e5a0e002e.png" 
+    },
+    {
+        "name": "Mobile Developer and Instructional Aide",
+        "description": "Developer Student Club at ASU",
+        "timeline": "(February 2020 - November 2020)",
+        "place": "Tempe, USA",
+        "imageUrl": "https://user-images.githubusercontent.com/11274840/93274537-74ba0500-f76f-11ea-89d9-aafb524ff9ad.png" 
+    },
+    {
+        "name": "Graduate Teaching Assistant",
+        "description": "WP Carey School of Business at ASU",
+        "timeline": "(February 2020 - April 2020)",
+        "place": "Tempe, USA",
+        "imageUrl": "https://user-images.githubusercontent.com/11274840/93274919-586a9800-f770-11ea-836a-7542fea04d33.png" 
+    },
+    {
+        "name": "Programmer Analyst",
+        "description": "Cognizant Technology Solutions",
+        "timeline": "(June 2016 - June 2019)",
+        "place": "Chennai, India",
+        "imageUrl": "https://user-images.githubusercontent.com/11274840/93275081-c911b480-f770-11ea-9f35-7e3fb1281f49.png" 
+    }    
+
+    
+
+]

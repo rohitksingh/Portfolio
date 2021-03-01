@@ -6,6 +6,7 @@ function NavigationBar(){
         <Navbar bg="dark" variant="dark">
             <Nav className="mr-auto container">
                 <Nav.Link href="#Home">About Me</Nav.Link>
+                <Nav.Link href="/experience">Experience</Nav.Link>
                 <Nav.Link href="#">Android Projects</Nav.Link>
                 <Nav.Link href="/otherprojects">Other Projects</Nav.Link>
                 <Nav.Link href="#">Android Animations</Nav.Link>

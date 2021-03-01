@@ -3,6 +3,7 @@ import Footer from './components/Footer/footer'
 import NavigationBar from './components/NavigationBar/navbar'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import OtherProects from './components/OtherProjects/otherProjects'
+import Experience from './components/Experience/experience'
 import {BrowserRouter as Router, Route} from 'react-router-dom' 
 
 
@@ -13,6 +14,7 @@ function App() {
       <Router>
         <Route path="/" exact component={OtherProects}/>
         <Route path="/otherprojects" component={OtherProects}/>
+        <Route path="/experience" component={Experience}/>
       </Router>
       <Footer/>
     </div>
