@@ -12,6 +12,7 @@ function App() {
       <NavigationBar/>
       <Router>
         <Route path="/" exact component={OtherProects}/>
+        <Route path="/otherprojects" component={OtherProects}/>
       </Router>
       <Footer/>
     </div>
