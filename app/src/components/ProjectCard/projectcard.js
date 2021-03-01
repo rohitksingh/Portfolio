@@ -11,7 +11,6 @@ class ProjectCard extends Component {
 
 
     getColor(){
-        
         return colors[Math.floor(Math.random()*(colors.length-1))]
     }
 
@@ -34,6 +33,7 @@ class ProjectCard extends Component {
     }
 
     getLinkText = () => {
+        
         var value = this.props.link
         
         if(value.includes("github"))

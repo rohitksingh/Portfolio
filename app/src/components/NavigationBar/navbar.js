@@ -12,7 +12,7 @@ function NavigationBar(){
                 <Nav.Link href="/experience">Experience</Nav.Link>
                 <Nav.Link href="#">Android Projects</Nav.Link>
                 <Nav.Link href="/otherprojects">Other Projects</Nav.Link>
-                <Nav.Link href="#">Android Animations</Nav.Link>
+                <Nav.Link href="/animations">Android Animations</Nav.Link>
             </Nav>
         </Navbar.Collapse>    
         </Navbar> 
