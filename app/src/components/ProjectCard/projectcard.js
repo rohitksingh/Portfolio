@@ -3,7 +3,17 @@ import { Container , Row, Col, Card, Image} from 'react-bootstrap'
 import {Link} from 'react-router-dom'
 import './projectcard.css'
 
+const colors = [
+    'primary', 'secondary', 'success', 'danger', 'warning', 'info','dark'
+]
+
 class ProjectCard extends Component {
+
+
+    getColor(){
+        
+        return colors[Math.floor(Math.random()*(colors.length-1))]
+    }
 
     constructor(props){
         super(props)
@@ -24,12 +34,13 @@ class ProjectCard extends Component {
     }
 
     
+    
     render(){
         return(
             <Container className="project-card-container" fluid >
                 <Row className="justify-content-center">
                     <Col lg={6}>
-                        <Card className='card-horizontal' bg='warning'>
+                        <Card className='card-horizontal' bg={this.getColor()}>
                             <div className="card-horizontal">
                                 <Image className="project-image" src={this.props.imgUrl}/>
                                 <Card.Body className="project-content">
