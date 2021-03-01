@@ -1,9 +1,10 @@
 import React from 'react'
 import {Navbar, Nav} from 'react-bootstrap'
+import '../NavigationBar/navbar.css'
 
 function NavigationBar(){
     return(
-        <Navbar collapseOnSelect expand="md" bg="success" variant="dark">
+        <Navbar className='navbar-container' collapseOnSelect expand="md" bg="success" variant="dark">
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="mr-auto container">

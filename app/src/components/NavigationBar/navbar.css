@@ -1,0 +1,8 @@
+.navbar-container{
+    font-family: 'MyFont';
+}
+
+@font-face {
+    font-family: 'MyFont'; 
+    src: url(../../static/Arvo-Regular.ttf); 
+}
