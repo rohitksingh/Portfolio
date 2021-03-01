@@ -40,7 +40,7 @@ class ProjectCard extends Component {
             <Container className="project-card-container" fluid >
                 <Row className="justify-content-center">
                     <Col lg={6}>
-                        <Card className='card-horizontal' bg={this.getColor()}>
+                        <Card className='project-card' bg={this.getColor()}>
                             <div className="card-horizontal">
                                 <Image className="project-image" src={this.props.imgUrl}/>
                                 <Card.Body className="project-content">
