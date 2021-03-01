@@ -9,8 +9,17 @@
     color: black;
 }
 
-.card-body h1, h4, p, a{
+.card-body{
     font-family: 'MyFont';
+}
+
+.card-body > p {
+    margin: 0px;
+}
+
+.heading{
+    font-family: 'MyFont';
+    padding: 8px;
 }
 
 @font-face {

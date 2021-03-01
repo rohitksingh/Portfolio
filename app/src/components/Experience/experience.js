@@ -15,7 +15,7 @@ class Experience extends Component{
     render(){
         return(
             <Container>
-                <h1>Work Experience</h1>
+                <h1 className='heading'>Work Experience</h1>
                 {this.getExperienceCard()}
             </Container>
         );

@@ -1,5 +1,11 @@
 .project-card-container{
     margin: 12px;
+    font-family: 'MyFont';
+}
+
+@font-face {
+    font-family: 'MyFont'; 
+    src: url(../../static/Arvo-Regular.ttf); 
 }
 
 
@@ -35,7 +41,7 @@
 
 .card-horizontal {
     display: flex;
-  }
+}
 
 
 .w3-tag{
@@ -47,6 +53,7 @@
     padding-top: 2px;
     padding-bottom: 2px;
     border-radius: 4px;
+    color: white;
 }
 
 .skills{
