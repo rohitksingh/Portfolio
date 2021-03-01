@@ -8,3 +8,12 @@
 .project-content{
     color: black;
 }
+
+.card-body h1, h4, p, a{
+    font-family: 'MyFont';
+}
+
+@font-face {
+    font-family: 'MyFont'; 
+    src: url(../../static/Arvo-Regular.ttf); 
+}
