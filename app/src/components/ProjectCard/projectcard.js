@@ -29,10 +29,21 @@ class ProjectCard extends Component {
         });
     };
 
-    getLink = () =>{
+    getLink = () => {
         return this.props.link
     }
 
+    getLinkText = () => {
+        var value = this.props.link
+        
+        if(value.includes("github"))
+            return "See project on Github"
+        else if(value.includes("medium"))    
+            return "Read Article on Medium"
+        else
+            return "See Project"     
+        
+    } 
     
     
     render(){
@@ -52,7 +63,7 @@ class ProjectCard extends Component {
                                 </Card.Body>
                             </div>
                             <Card.Footer>
-                                <a className="project-link" href={this.getLink()} target="_blank">See project on Github</a>
+                                <a className="project-link" href={this.getLink()} target="_blank">{this.getLinkText()}</a>
                             </Card.Footer>    
                         </Card>
                     </Col>
