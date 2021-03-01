@@ -2,12 +2,10 @@
     margin: 12px;
 }
 
+
 .project-content{
-    align-self: center;
     color: white;
-    margin-top: 16px;
     margin-right: 16px;
-    margin-bottom: 16px;
 }
 
 .project-link{
@@ -21,6 +19,7 @@
 
 .project-card{
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    padding: 8px;
   }
 
   .project-card:hover {
@@ -36,23 +35,26 @@
 
 .card-horizontal {
     display: flex;
-    flex: 1 1 auto;
   }
+
 
 .w3-tag{
     margin: 2px;
     font-size: 10px;
     background-color: black;
-    padding-left: 4px;
-    padding-right: 4px;
+    padding-left: 6px;
+    padding-right: 6px;
     padding-top: 2px;
     padding-bottom: 2px;
+    border-radius: 4px;
 }
 
 .skills{
     margin-right: 10px;
-    width: min-content;
+    display: flex;
+    flex-wrap: wrap;
     animation: skills-animation 3s 1 forwards;
+
 }
 
 @keyframes skills-animation {

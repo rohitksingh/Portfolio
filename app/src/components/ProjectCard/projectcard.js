@@ -25,16 +25,16 @@ class ProjectCard extends Component {
             <Container className="project-card-container" fluid >
                 <Row className="justify-content-center">
                     <Col lg={6}>
-                        <Card bg='primary'>
+                        <Card className='card-horizontal' bg='warning'>
                             <div className="card-horizontal">
                                 <Image className="project-image" src={this.props.imgUrl}/>
-                                <div className="project-content">
+                                <Card.Body className="project-content">
                                     <Card.Title>{this.props.name}</Card.Title>
                                     <Card.Text>{this.props.description}</Card.Text>
                                     <div className="skills">
                                         {this.getTags()}
                                     </div>
-                                </div>
+                                </Card.Body>
                             </div>
                             <Card.Footer>
                                 <Link className="project-link" to={this.props.link}>See project on Github</Link>
