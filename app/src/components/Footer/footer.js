@@ -1,15 +1,15 @@
 import React from 'react'
+import { Container } from 'react-bootstrap'
+import '../Footer/footer.css'
 
 function Footer(){
 
     return (
-        <div>
-            <div className="container">
-                Created by Rohit Singh
-            </div>
+        <div className='footer-container'>
+            <Container>
+                <p>Created by Rohit Singh</p>
+            </Container>
         </div>
-
-        
     );
 
 } 
