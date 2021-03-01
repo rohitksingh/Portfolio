@@ -14,14 +14,10 @@ class Experience extends Component{
 
     render(){
         return(
-            <div>
-                <Container>
-                    <h1>Work Experience</h1>
-                    {this.getExperienceCard()}
-                </Container>
-                
-                
-            </div>
+            <Container>
+                <h1>Work Experience</h1>
+                {this.getExperienceCard()}
+            </Container>
         );
     }
 
@@ -33,18 +29,18 @@ class Experience extends Component{
                     <Container className="project-card-container" fluid >
                         <Row className="justify-content-center">
                             <Col lg={6}>
-                        <Card className='project-card'>
-                            <div className="card-horizontal">
-                                <Image className="contribution-image" src={data.imageUrl}/>
-                                <Card.Body className="project-content">
-                                    <Card.Title>{data.name}</Card.Title>
-                                    <p className='card-title'>{data.description}</p>
-                                    <p className='card-title'>{data.timeline}</p>
-                                    <p className='card-title'>{data.place}</p>
-                                </Card.Body>
-                            </div>    
-                        </Card>
-                    </Col>
+                                <Card className='project-card'>
+                                    <div className="card-horizontal">
+                                        <Image className="contribution-image" src={data.imageUrl}/>
+                                        <Card.Body className="project-content">
+                                            <h4 className='class-title'>{data.name}</h4>
+                                            <p className='card-title'>{data.description}</p>
+                                            <p className='card-title'>{data.timeline}</p>
+                                            <p className='card-title'>{data.place}</p>
+                                        </Card.Body>
+                                    </div>    
+                                </Card>
+                            </Col>
                         </Row>
                     </Container>
             );
