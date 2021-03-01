@@ -17,5 +17,59 @@
             "Java", "Eclipse", "Builder Pattern", "Chain of responsibility", "Command Pattern", "Composite Pattern", "Memonto Pattern", "Singleton Pattern"
             
         ]
+    }, 
+    { 
+        "name": "My Flutter Github Repository",
+        "description": "Code repository for different widgets implementation", 
+        "link": "https://github.com/rohitksingh/FlutterStuff",
+        "imgUrl": "https://user-images.githubusercontent.com/11274840/93256099-af13aa00-f74f-11ea-8b8f-a7c0e6dea930.png",
+        "tags": [
+            "StackView", "PositionView", "ExpandedView", "Container", "Custom", "Class for reusing widget"
+        ]
+    },
+    { 
+        "name": "My Android Garage",
+        "description": "Quick Reference Repository for Android Related work", 
+        "link": "https://github.com/rohitksingh/My_Android_Garage",
+        "imgUrl": "https://user-images.githubusercontent.com/11274840/93256849-d7e86f00-f750-11ea-8d6f-f03c7b18f421.png",
+        "tags": [
+            "Google", "Map Services", "Fragments", "Firebase", "GPS location and Runtime permissions", "OAuth", "Webview", "MVVM Design", "ViewModel", "Livedata"
+        ]
+    },
+    { 
+        "name": "Java Unit Test",
+        "description": "Junit5 test cases for a Swing Application", 
+        "link": "https://github.com/rohitksingh/Java-Unit-Test",
+        "imgUrl": "https://user-images.githubusercontent.com/11274840/93257677-10d51380-f752-11ea-926d-ad7775d4f6ef.png",
+        "tags": [
+            "Junit5", "Java", "Eclipse"
+        ]
+    },
+    { 
+        "name": "Cordova Application",
+        "description": "Basic Weight Convertor Application", 
+        "link": "https://github.com/rohitksingh/Weight-Convertor-Cordova",
+        "imgUrl": "https://user-images.githubusercontent.com/11274840/93265336-58ad6800-f75d-11ea-8b28-6e9b50ce9f6c.png",
+        "tags": [
+            "Cordova", "JavaScript", "Bootstrap", "HTML", "CSS"
+        ]
+    },
+    { 
+        "name": "Flask Code repository",
+        "description": "Code sample for Flask application development", 
+        "link": "https://github.com/rohitksingh/Flask-Code-Repository",
+        "imgUrl": "https://user-images.githubusercontent.com/11274840/93265137-02d8c000-f75d-11ea-83e1-384ee88daa84.png",
+        "tags": [
+            "Python3", "PIP", "SQLAlchemy", "Bootstrap", "Flask"
+        ]
+    },
+    { 
+        "name": "ESP32 Microprocessor",
+        "description": "My Article on ESP32 Microprocessor", 
+        "link": "https://medium.com/@rohitksingh/esp32-microprocessor-mangoose-os-part-1-2092129c0545",
+        "imgUrl": "https://user-images.githubusercontent.com/11274840/93266081-6fa08a00-f75e-11ea-993a-21d5ca71abd9.png",
+        "tags": [
+            "ESP32", "Mangoose OS"
+        ]
     }
 ]
