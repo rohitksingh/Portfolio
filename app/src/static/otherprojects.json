@@ -2,7 +2,7 @@
     { 
         "name": "iOS Places App",
         "description": "iOS which sync address with JSON RPC Server and Other Android device", 
-        "link": "http://localhost:3000/https://google.com",
+        "link": "https://github.com/rohitksingh/IOS-Places",
         "imgUrl": "https://user-images.githubusercontent.com/11274840/93257120-3f9eba00-f751-11ea-8b7e-b9b1fb99ab79.png",
         "tags": [
             "XCode", "Swift", "Coredata", "JSON RPC", "SQLite3", "UIRefreshControl", "UIAlertController", "Segue, Unwind Segue"
@@ -11,8 +11,8 @@
     { 
         "name": "Design Patterns",
         "description": "Java implementation for different software design patterns", 
-        "link": "https://google.com",
-        "imgUrl": "https://user-images.githubusercontent.com/11274840/93257120-3f9eba00-f751-11ea-8b7e-b9b1fb99ab79.png",
+        "link": "https://github.com/rohitksingh/Design_Patterns_aka_Hawai_Baatein",
+        "imgUrl": "https://user-images.githubusercontent.com/11274840/93255253-7f17d700-f74e-11ea-95cd-0f0b521260a9.png",
         "tags": [
             "Java", "Eclipse", "Builder Pattern", "Chain of responsibility", "Command Pattern", "Composite Pattern", "Memonto Pattern", "Singleton Pattern"
             

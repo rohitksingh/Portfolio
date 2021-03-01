@@ -19,6 +19,10 @@ class ProjectCard extends Component {
         });
     };
 
+    getLink = () =>{
+        return this.props.link
+    }
+
     
     render(){
         return(
@@ -37,7 +41,7 @@ class ProjectCard extends Component {
                                 </Card.Body>
                             </div>
                             <Card.Footer>
-                                <Link className="project-link" to={this.props.link}>See project on Github</Link>
+                                <a className="project-link" href={this.getLink()} target="_blank">See project on Github</a>
                             </Card.Footer>    
                         </Card>
                     </Col>
