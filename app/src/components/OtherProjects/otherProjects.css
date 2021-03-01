@@ -1,0 +1,28 @@
+.project-jumbotron{
+    border-radius: 0;
+    background-color: #720D5D;
+}
+
+.jumbotron-title{
+    color: white;
+}
+
+.project-image{
+    height: 48px;
+    width: 48px;
+    margin-top: 6px;
+    margin-left: 6px;
+}
+
+.skills{
+    animation: skills-animation 3s 1 forwards;
+}
+
+@keyframes skills-animation {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
