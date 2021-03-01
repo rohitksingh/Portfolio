@@ -12,9 +12,9 @@ class ProjectCard extends Component {
     }
 
     getTags = () => {
-         return this.props.tags.map((tag) => {
+         return this.props.tags.map((tag, index) => {
             return (
-                <span className="w3-tag">tag</span>
+                <span key={index} className="w3-tag">{tag}</span>
             );
         });
     };
