@@ -15,3 +15,14 @@
 <img width="1434" alt="Screenshot 2021-03-14 at 2 45 15 PM" src="https://user-images.githubusercontent.com/11274840/111085396-7bce8f80-84d4-11eb-9426-2e31d2144486.png">
 
 
+---
+## About author
+<p align="center">This Repository is developed and maintained by </p>
+<p align="center">
+  <a href="https://stackoverflow.com/users/4700156/rohit-singh?tab=profile"><img width="100" height="100" src="https://user-images.githubusercontent.com/11274840/30627155-38952a30-9dec-11e7-9072-a00d9a86bdb8.gif">
+</p></a>
+<a href="https://stackoverflow.com/users/4700156/rohit-singh?tab=profile">
+<p align="center">
+  Rohit Singh
+</p>
+</a>
